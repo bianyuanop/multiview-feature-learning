@@ -152,7 +152,7 @@ if __name__ == '__main__':
         base_dir=os.getcwd(),
         out_dir='preprocessed',
         infosource_config = {
-            "subject_id": ["08"],
+            "subject_id": ["08", "09", "10", "11"],
             "run": ["1", "2"], 
         },
         datasource_config = {

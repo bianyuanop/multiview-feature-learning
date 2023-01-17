@@ -134,7 +134,7 @@ if __name__ == '__main__':
         base_dir='/home/chan/Documents/graduate-essay', 
         fsl_dir='fsl', 
         infosource_config = {
-            "subject_id": ["08"],
+            "subject_id": ["08", "09", "10", "11"],
             "run": ["1"], 
             "fwhm": ["4"]
         },
