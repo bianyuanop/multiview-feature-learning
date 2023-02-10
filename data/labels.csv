@@ -1,0 +1,13 @@
+seq,run1,run2,run3,run4
+1,Cow,Engine,Street,Grass
+2,Kitchen,Phone,Engine,Type
+3,Grass,Sheep,Cow,Horn
+4,Fry,Office,Phone,Fry
+5,Sheep,Horn,Office,Office
+6,Phone,Street,Fry,Kitchen
+7,Engine,Cut,Cut,Sheep
+8,Street,Kitchen,Sheep,Street
+9,Horn,Fry,Grass,Engine
+10,Office,Type,Horn,Phone
+11,Cut,Grass,Type,Cow
+12,Type,Cow,Kitchen,Cut
