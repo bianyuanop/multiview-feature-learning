@@ -2,6 +2,8 @@ import os
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
+import matplotlib.pyplot as plt
+from scipy.fft import fft, fftfreq
 
 def ts_windowing(target: np.ndarray, window_size: int):
     slices_total = target.shape[0] // window_size 
@@ -16,6 +18,7 @@ def get_correfs(ts: np.ndarray, altas_len: int):
         res[i, :, :] = np.corrcoef(sample.T)
     
     return res
+
 
 
 df_labels = pd.read_csv('./data/labels.csv')
