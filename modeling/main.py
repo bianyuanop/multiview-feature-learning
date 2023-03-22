@@ -10,7 +10,7 @@ from data import Xs, ys
 from filters import bandpass, raw
 from preprocess import pca, lasso
 from models.base import ModelBase
-from models import svm
+from models import svm, dt, knn, multi_logistic
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, accuracy_score
 
@@ -19,7 +19,7 @@ import config
 def main(output_dir):
     filters = [bandpass, raw]  
     preprocessers = [pca,lasso]
-    models: List[ModelBase] = [svm.Model()]
+    models: List[ModelBase] = [svm.Model(), dt.Model(), multi_logistic.Model(), knn.Model()]
 
     bandpass_conf = config.filters["bandpass"]
     bandpass_conf["X"] = Xs
