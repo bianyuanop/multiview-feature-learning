@@ -166,4 +166,5 @@ if __name__ == '__main__':
             }
         })
 
-    workflow.run()
+    # workflow.run()
+    workflow.write_graph('./workflows/graphs/preprocess.dot')

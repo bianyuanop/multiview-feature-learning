@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter, freqz
 
-
 def filter(X: np.ndarray, lowcut=0.015, highcut=0.1, interval=2, order=6):
     '''
     input: with shape (sample size, atlas size, ts size)
