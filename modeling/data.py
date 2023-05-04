@@ -4,7 +4,8 @@ import numpy as np
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder
 from sklearn.model_selection import train_test_split
 
-df_labels = pd.read_csv('./data/labels.csv')
+# df_labels = pd.read_csv('./data/labels.csv')
+df_labels = pd.read_csv('./data/cross_modality.csv')
 df_labels
 
 one_hot_enc = OneHotEncoder(handle_unknown='ignore')
@@ -12,6 +13,8 @@ one_hot_enc.fit_transform(df_labels.iloc[:, 1].to_numpy().reshape(-1, 1))
 
 cate_enc = LabelEncoder()
 cate_enc.fit_transform(df_labels.iloc[:, 1].to_numpy())
+
+print(cate_enc.get_params())
 
 
 base_dir = './output/'

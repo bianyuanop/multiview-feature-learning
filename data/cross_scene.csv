@@ -1,0 +1,13 @@
+seq,run1,run2,run3,run4
+1,Grass,Street,Street,Grass
+2,Kitchen,Office,Street,Office
+3,Grass,Grass,Grass,Street
+4,Kitchen,Office,Office,Kitchen
+5,Grass,Street,Office,Office
+6,Office,Street,Kitchen,Kitchen
+7,Street,Kitchen,Kitchen,Grass
+8,Street,Kitchen,Grass,Street
+9,Street,Kitchen,Grass,Street
+10,Office,Office,Street,Office
+11,Kitchen,Grass,Office,Grass
+12,Office,Grass,Kitchen,Kitchen

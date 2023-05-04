@@ -1,0 +1,13 @@
+seq,run1,run2,run3,run4
+1,Hearing,Hearing,Vision,Vision
+2,Vision,Hearing,Hearing,Hearing
+3,Vision,Hearing,Hearing,Hearing
+4,Hearing,Vision,Hearing,Hearing
+5,Hearing,Hearing,Vision,Vision
+6,Hearing,Vision,Hearing,Vision
+7,Hearing,Hearing,Hearing,Hearing
+8,Vision,Vision,Hearing,Vision
+9,Hearing,Hearing,Vision,Hearing
+10,Vision,Hearing,Hearing,Hearing
+11,Hearing,Vision,Hearing,Hearing
+12,Hearing,Hearing,Vision,Hearing
